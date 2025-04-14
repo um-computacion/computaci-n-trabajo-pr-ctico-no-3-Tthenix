@@ -2,6 +2,7 @@ class NumeroDebeSerPositivo(Exception):
     pass
 
 def ingrese_numero():
+    
     entrada = input("Ingrese un número: ")
     try:
         numero = int(entrada)
